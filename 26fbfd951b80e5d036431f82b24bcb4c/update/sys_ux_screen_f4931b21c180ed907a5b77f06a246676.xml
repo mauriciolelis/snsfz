@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <app_config display_value="Sefaz Ordem de Serviço Config">ec931b211b80ed9056100fa9cc4bcb40</app_config>
+        <description/>
+        <event_mappings>[ ]</event_mappings>
+        <macroponent display_value="Attachment">74931b214f80ed90c0c75b93df41ad78</macroponent>
+        <macroponent_config>{
+  "sysId" : "@context.props.sysId",
+  "table" : "@context.props.table",
+  "label" : "",
+  "bare" : true,
+  "scrollable" : "none",
+  "headerLevel" : "1",
+  "interceptNotifications" : false,
+  "propagateNotifications" : false
+}</macroponent_config>
+        <name>Attachment Default</name>
+        <order>0</order>
+        <parent_macroponent display_value="Record Page(request)">fc931b217880ed90f9fb2520824ac681</parent_macroponent>
+        <required_translations>[]</required_translations>
+        <rollback_screen/>
+        <screen_condition/>
+        <screen_type display_value="Attachments">34931b218880ed905a31c15157973582</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-12-28 19:20:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>f4931b21c180ed907a5b77f06a246676</sys_id>
+        <sys_name>Attachment Default</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Sefaz Ordem de Serviço" source="x_ctdi2_sefaz_or_0">26fbfd951b80e5d036431f82b24bcb4c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sefaz Ordem de Serviço">26fbfd951b80e5d036431f82b24bcb4c</sys_scope>
+        <sys_update_name>sys_ux_screen_f4931b21c180ed907a5b77f06a246676</sys_update_name>
+    </sys_ux_screen>
+</record_update>

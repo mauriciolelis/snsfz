@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="bdff31511bc0e5d036431f82b24bcb18" sys_domain="global" table="x_ctdi2_sefaz_or_0_dados_de_contrato" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-28 19:41:18</sys_created_on>
+            <sys_id>d348dfa51b40a9d036431f82b24bcbeb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ctdi2_sefaz_or_0_dados_de_contrato" sys_domain="global" view="Default view">bdff31511bc0e5d036431f82b24bcb18</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-28 19:41:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cnpj_cpf</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-28 19:41:18</sys_created_on>
+            <sys_id>db48dfa51b40a9d036431f82b24bcbeb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ctdi2_sefaz_or_0_dados_de_contrato" sys_domain="global" view="Default view">bdff31511bc0e5d036431f82b24bcb18</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-28 19:41:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>lotes</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-28 19:41:18</sys_created_on>
+            <sys_id>df48dfa51b40a9d036431f82b24bcbeb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ctdi2_sefaz_or_0_dados_de_contrato" sys_domain="global" view="Default view">bdff31511bc0e5d036431f82b24bcb18</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-28 19:41:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>nome_da_contratada</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-28 19:41:18</sys_created_on>
+            <sys_id>d348dfa51b40a9d036431f82b24bcbec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ctdi2_sefaz_or_0_dados_de_contrato" sys_domain="global" view="Default view">bdff31511bc0e5d036431f82b24bcb18</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-28 19:41:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>numero_do_cntrato</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-28 19:41:18</sys_created_on>
+            <sys_id>d748dfa51b40a9d036431f82b24bcbec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ctdi2_sefaz_or_0_dados_de_contrato" sys_domain="global" view="Default view">bdff31511bc0e5d036431f82b24bcb18</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-28 19:41:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>valor_da_ust</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-28 19:41:18</sys_created_on>
+            <sys_id>db48dfa51b40a9d036431f82b24bcbec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ctdi2_sefaz_or_0_dados_de_contrato" sys_domain="global" view="Default view">bdff31511bc0e5d036431f82b24bcb18</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-28 19:41:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_ctdi2_sefaz_or_0_dados_de_contrato</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-27 18:36:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bdff31511bc0e5d036431f82b24bcb18</sys_id>
+            <sys_name>x_ctdi2_sefaz_or_0_dados_de_contrato</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Sefaz Ordem de Serviço" source="x_ctdi2_sefaz_or_0">26fbfd951b80e5d036431f82b24bcb4c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Sefaz Ordem de Serviço">26fbfd951b80e5d036431f82b24bcb4c</sys_scope>
+            <sys_update_name>sys_ui_section_bdff31511bc0e5d036431f82b24bcb18</sys_update_name>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

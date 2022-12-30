@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_ctdi2_sefaz_or_0_nucleos_equipes">x_ctdi2_sefaz_or_0_nucleos_equipes</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>NUC</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-27 19:33:06</sys_created_on>
+        <sys_id>21dc06111b44e5d036431f82b24bcb1f</sys_id>
+        <sys_name>NUC</sys_name>
+        <sys_package display_value="Sefaz Ordem de Serviço" source="x_ctdi2_sefaz_or_0">26fbfd951b80e5d036431f82b24bcb4c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sefaz Ordem de Serviço">26fbfd951b80e5d036431f82b24bcb4c</sys_scope>
+        <sys_update_name>sys_number_21dc06111b44e5d036431f82b24bcb1f</sys_update_name>
+    </sys_number>
+</record_update>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_config">
+    <sys_ux_app_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <custom_icon/>
+        <default_route_type/>
+        <description>Portal OS</description>
+        <encode_query_string>false</encode_query_string>
+        <icon/>
+        <landing_path>landing</landing_path>
+        <name>Sefaz Ordem de Serviço Config</name>
+        <prefetch_limits/>
+        <sys_class_name>sys_ux_app_config</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-12-28 19:20:46</sys_created_on>
+        <sys_id>ec931b211b80ed9056100fa9cc4bcb40</sys_id>
+        <sys_name>Sefaz Ordem de Serviço Config</sys_name>
+        <sys_package display_value="Sefaz Ordem de Serviço" source="x_ctdi2_sefaz_or_0">26fbfd951b80e5d036431f82b24bcb4c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sefaz Ordem de Serviço">26fbfd951b80e5d036431f82b24bcb4c</sys_scope>
+        <sys_update_name>sys_ux_app_config_ec931b211b80ed9056100fa9cc4bcb40</sys_update_name>
+    </sys_ux_app_config>
+</record_update>

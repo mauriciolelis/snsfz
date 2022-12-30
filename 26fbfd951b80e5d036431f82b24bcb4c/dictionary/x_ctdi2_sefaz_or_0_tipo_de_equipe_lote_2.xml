@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="679713651b40a9d036431f82b24bcb5f" label="Tipo de Equipe Lote 2" max_length="40" name="x_ctdi2_sefaz_or_0_tipo_de_equipe_lote_2" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Administração de Dados" max_length="40" name="administra_o_de_dados" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Auditoria e Controle" max_length="40" name="auditoria_e_controle" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Governança Corporativa" max_length="40" name="governan_a_corporativa" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="LOTE II" max_length="40" name="lote_ii" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Qualidade e Processo" max_length="40" name="qualidade_e_processo" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

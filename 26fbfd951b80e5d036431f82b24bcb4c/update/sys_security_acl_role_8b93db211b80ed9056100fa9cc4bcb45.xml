@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-12-28 19:20:48</sys_created_on>
+        <sys_id>8b93db211b80ed9056100fa9cc4bcb45</sys_id>
+        <sys_name>70931b211a80ed90d606dc19c86c3385.snc_internal</sys_name>
+        <sys_package display_value="Sefaz Ordem de Serviço" source="x_ctdi2_sefaz_or_0">26fbfd951b80e5d036431f82b24bcb4c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sefaz Ordem de Serviço">26fbfd951b80e5d036431f82b24bcb4c</sys_scope>
+        <sys_security_acl display_value="70931b211a80ed90d606dc19c86c3385">b4931b218580ed90e6245ad65d998a85</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_8b93db211b80ed9056100fa9cc4bcb45</sys_update_name>
+        <sys_user_role display_value="snc_internal" name="snc_internal">7fcaa702933002009c8579b4f47ffbde</sys_user_role>
+        <transaction_id>868317211b80ed9056100fa9cc4bcbf4</transaction_id>
+    </sys_security_acl_role>
+</record_update>

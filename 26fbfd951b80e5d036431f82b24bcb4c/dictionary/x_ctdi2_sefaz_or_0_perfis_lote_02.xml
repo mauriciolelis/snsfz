@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="a8028ad51bc0e5d036431f82b24bcb07" label="Perfis_Lote_02" max_length="40" name="x_ctdi2_sefaz_or_0_perfis_lote_02" type="collection">
+        <element label="Fator" max_length="15" name="fator" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="PERFIL" max_length="40" name="perfil" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

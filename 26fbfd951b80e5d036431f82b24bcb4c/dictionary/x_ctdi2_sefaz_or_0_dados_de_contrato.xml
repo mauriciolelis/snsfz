@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="27dfb1111bc0e5d036431f82b24bcb99" label="Dados de Contrato" max_length="40" name="x_ctdi2_sefaz_or_0_dados_de_contrato" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="CNPJ_CPF" max_length="40" name="cnpj_cpf" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Lotes" max_length="40" name="lotes" type="string">
+            <choice>
+                <element inactive_on_update="false" label="1" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="2" sequence="1" value="2"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Nome da Contratada" max_length="40" name="nome_da_contratada" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Numero do Cntrato" max_length="40" name="numero_do_cntrato" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Valor da UST" max_length="38" name="valor_da_ust" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" label="Valor da UST do Contrato" max_length="40" name="valor_da_ust_do_contrato" type="string"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

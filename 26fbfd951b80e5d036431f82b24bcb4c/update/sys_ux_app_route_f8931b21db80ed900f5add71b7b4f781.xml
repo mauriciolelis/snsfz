@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config display_value="Sefaz Ordem de Serviço Config">ec931b211b80ed9056100fa9cc4bcb40</app_config>
+        <description/>
+        <extension_point/>
+        <fields/>
+        <icon/>
+        <name>Task Approved</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>task_approved</route_type>
+        <screen_type display_value="Task Approved">38931b210280ed9004316afcd39a6281</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-12-28 19:20:46</sys_created_on>
+        <sys_id>f8931b21db80ed900f5add71b7b4f781</sys_id>
+        <sys_name>Task Approved</sys_name>
+        <sys_package display_value="Sefaz Ordem de Serviço" source="x_ctdi2_sefaz_or_0">26fbfd951b80e5d036431f82b24bcb4c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sefaz Ordem de Serviço">26fbfd951b80e5d036431f82b24bcb4c</sys_scope>
+        <sys_update_name>sys_ux_app_route_f8931b21db80ed900f5add71b7b4f781</sys_update_name>
+    </sys_ux_app_route>
+</record_update>

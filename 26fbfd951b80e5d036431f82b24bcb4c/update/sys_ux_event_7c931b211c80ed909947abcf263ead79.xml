@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="INSERT_OR_UPDATE">
+        <description/>
+        <event_name>GLIDE_FORM_1_SAVE_RELAY_30931b212f80ed906f08af9829d1b87a</event_name>
+        <interfaces/>
+        <label>Glide Form 1 SAVE Relay (Tasks Default)</label>
+        <props>[]</props>
+        <required_translations/>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-12-28 19:20:48</sys_created_on>
+        <sys_id>7c931b211c80ed909947abcf263ead79</sys_id>
+        <sys_name>Glide Form 1 SAVE Relay (Tasks Default)</sys_name>
+        <sys_package display_value="Sefaz Ordem de Serviço" source="x_ctdi2_sefaz_or_0">26fbfd951b80e5d036431f82b24bcb4c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sefaz Ordem de Serviço">26fbfd951b80e5d036431f82b24bcb4c</sys_scope>
+        <sys_update_name>sys_ux_event_7c931b211c80ed909947abcf263ead79</sys_update_name>
+    </sys_ux_event>
+</record_update>

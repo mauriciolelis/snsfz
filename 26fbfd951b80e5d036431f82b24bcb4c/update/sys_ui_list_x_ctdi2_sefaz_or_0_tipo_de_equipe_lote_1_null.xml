@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_ctdi2_sefaz_or_0_tipo_de_equipe_lote_1" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_ctdi2_sefaz_or_0_tipo_de_equipe_lote_1" element="NULL" name="x_ctdi2_sefaz_or_0_tipo_de_equipe_lote_1" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">f99ed3a51bc0ed9056100fa9cc4bcb1c</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-28 20:08:47</sys_created_on>
+            <sys_id>7d9ed3a51bc0ed9056100fa9cc4bcb1d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-28 20:08:47</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>componentes_e_atualiza_o</element>
+            <list_id display_value="x_ctdi2_sefaz_or_0_tipo_de_equipe_lote_1" element="NULL" name="x_ctdi2_sefaz_or_0_tipo_de_equipe_lote_1" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">f99ed3a51bc0ed9056100fa9cc4bcb1c</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-28 20:08:47</sys_created_on>
+            <sys_id>759ed3a51bc0ed9056100fa9cc4bcb1e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-28 20:08:47</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>especial</element>
+            <list_id display_value="x_ctdi2_sefaz_or_0_tipo_de_equipe_lote_1" element="NULL" name="x_ctdi2_sefaz_or_0_tipo_de_equipe_lote_1" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">f99ed3a51bc0ed9056100fa9cc4bcb1c</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-28 20:08:47</sys_created_on>
+            <sys_id>799ed3a51bc0ed9056100fa9cc4bcb1e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-28 20:08:47</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>integra_es</element>
+            <list_id display_value="x_ctdi2_sefaz_or_0_tipo_de_equipe_lote_1" element="NULL" name="x_ctdi2_sefaz_or_0_tipo_de_equipe_lote_1" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">f99ed3a51bc0ed9056100fa9cc4bcb1c</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-28 20:08:47</sys_created_on>
+            <sys_id>7d9ed3a51bc0ed9056100fa9cc4bcb1e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-28 20:08:47</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>intelig_ncia_de_neg_cio_bi</element>
+            <list_id display_value="x_ctdi2_sefaz_or_0_tipo_de_equipe_lote_1" element="NULL" name="x_ctdi2_sefaz_or_0_tipo_de_equipe_lote_1" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">f99ed3a51bc0ed9056100fa9cc4bcb1c</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-28 20:08:47</sys_created_on>
+            <sys_id>719ed3a51bc0ed9056100fa9cc4bcb1f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-28 20:08:47</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>lote_1</element>
+            <list_id display_value="x_ctdi2_sefaz_or_0_tipo_de_equipe_lote_1" element="NULL" name="x_ctdi2_sefaz_or_0_tipo_de_equipe_lote_1" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">f99ed3a51bc0ed9056100fa9cc4bcb1c</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-28 20:08:47</sys_created_on>
+            <sys_id>759ed3a51bc0ed9056100fa9cc4bcb1f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-28 20:08:47</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>projeto</element>
+            <list_id display_value="x_ctdi2_sefaz_or_0_tipo_de_equipe_lote_1" element="NULL" name="x_ctdi2_sefaz_or_0_tipo_de_equipe_lote_1" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">f99ed3a51bc0ed9056100fa9cc4bcb1c</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-28 20:08:47</sys_created_on>
+            <sys_id>799ed3a51bc0ed9056100fa9cc4bcb1f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-28 20:08:47</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sustenta_o</element>
+            <list_id display_value="x_ctdi2_sefaz_or_0_tipo_de_equipe_lote_1" element="NULL" name="x_ctdi2_sefaz_or_0_tipo_de_equipe_lote_1" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">f99ed3a51bc0ed9056100fa9cc4bcb1c</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-28 20:08:47</sys_created_on>
+            <sys_id>7d9ed3a51bc0ed9056100fa9cc4bcb1f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-28 20:08:47</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>web_design</element>
+            <list_id display_value="x_ctdi2_sefaz_or_0_tipo_de_equipe_lote_1" element="NULL" name="x_ctdi2_sefaz_or_0_tipo_de_equipe_lote_1" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">f99ed3a51bc0ed9056100fa9cc4bcb1c</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-28 20:08:47</sys_created_on>
+            <sys_id>319e57a51bc0ed9056100fa9cc4bcbe5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-28 20:08:47</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_ctdi2_sefaz_or_0_tipo_de_equipe_lote_1</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-28 20:08:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f99ed3a51bc0ed9056100fa9cc4bcb1c</sys_id>
+            <sys_name>x_ctdi2_sefaz_or_0_tipo_de_equipe_lote_1</sys_name>
+            <sys_package display_value="Sefaz Ordem de Serviço" source="x_ctdi2_sefaz_or_0">26fbfd951b80e5d036431f82b24bcb4c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Sefaz Ordem de Serviço">26fbfd951b80e5d036431f82b24bcb4c</sys_scope>
+            <sys_update_name>sys_ui_list_x_ctdi2_sefaz_or_0_tipo_de_equipe_lote_1_null</sys_update_name>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

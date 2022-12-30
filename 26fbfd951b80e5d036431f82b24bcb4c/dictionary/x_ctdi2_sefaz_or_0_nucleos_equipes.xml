@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="b0dcc2111b44e5d036431f82b24bcbb3" label="Nucleos Equipes" max_length="40" name="x_ctdi2_sefaz_or_0_nucleos_equipes" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Consultor Técnico" max_length="40" name="consultor_tecnico" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Descrição" max_length="40" name="descricao" type="string"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Núcleo" max_length="40" name="nucleo" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Núcleo / Equipes" max_length="40" name="nucleo_equipes" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

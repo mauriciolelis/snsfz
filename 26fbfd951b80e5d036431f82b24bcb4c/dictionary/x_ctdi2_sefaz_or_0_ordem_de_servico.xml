@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="191db1591b80e5d036431f82b24bcbb1" extends="task" label="Sefaz_Ordem_de_servico" max_length="40" name="x_ctdi2_sefaz_or_0_ordem_de_servico" type="collection">
+        <element label="Consultor tecnico" max_length="40" name="consultor_tecnico" type="string"/>
+        <element label="CPF_CNPJ" max_length="40" name="cpf_cnpj" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Data de Encerramento" mandatory="true" max_length="40" name="data_de_encerramento" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Data de Inicio" mandatory="true" max_length="40" name="data_de_inicio" type="glide_date"/>
+        <element label="Dias uteis" max_length="40" name="dias_uteis" type="integer"/>
+        <element label="Especificacao" max_length="40" name="especificacao" type="string"/>
+        <element label="Nucleo" max_length="40" name="nucleo" reference="x_ctdi2_sefaz_or_0_nucleos_equipes" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Titulo" max_length="40" name="titulo" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="-" label="Tipo Equipe" max_length="40" name="u_choice_2" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Projeto" sequence="0" value="Projeto"/>
+                <element inactive_on_update="false" label="Sustentação" sequence="1" value="sustentação"/>
+                <element inactive_on_update="false" label="Inteligência de Negócio (BI)" sequence="2" value="inteligência de negócio (bi)"/>
+                <element inactive_on_update="false" label="Componentes e Atualização" sequence="3" value="componentes e atualização"/>
+                <element inactive_on_update="false" label="Integrações" sequence="4" value="integrações"/>
+                <element inactive_on_update="false" label="Web Design" sequence="5" value="web design"/>
+                <element inactive_on_update="false" label="Especial" sequence="6" value="especial"/>
+            </choice>
+        </element>
+        <element label="Valor da UST" max_length="15" name="u_decimal_1" read_only="true" type="decimal"/>
+        <element formula="MULTIPLY(u_decimal_1,u_decimal_3)" label="Valor Total da OS" max_length="15" name="u_decimal_2" type="decimal" virtual="true" virtual_type="formula"/>
+        <element label="Total de USTs da OS" max_length="15" name="u_decimal_3" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" label="Especificação" max_length="100" name="u_especificao" type="string"/>
+        <element formula="TIMEDIFF(data_de_inicio,data_de_encerramento)" label="Duracao da OS" max_length="40" name="u_integer_1" type="integer" virtual="true" virtual_type="formula"/>
+        <element attributes="edge_encryption_enabled=true" label="Lote do Contrato" max_length="40" name="u_string_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Nome da Contratada" max_length="40" name="u_string_2" read_only="true" type="string"/>
+    </element>
+</database>

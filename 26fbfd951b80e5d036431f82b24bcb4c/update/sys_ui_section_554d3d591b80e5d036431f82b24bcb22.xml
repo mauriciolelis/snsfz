@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="554d3d591b80e5d036431f82b24bcb22" sys_domain="global" table="x_ctdi2_sefaz_or_0_ordem_de_servico" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-28 20:00:42</sys_created_on>
+            <sys_id>e7bc53a11bc0ed9056100fa9cc4bcba4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ctdi2_sefaz_or_0_ordem_de_servico" sys_domain="global" view="Default view">554d3d591b80e5d036431f82b24bcb22</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-28 20:00:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_created_by</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-28 20:00:42</sys_created_on>
+            <sys_id>efbc53a11bc0ed9056100fa9cc4bcba4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ctdi2_sefaz_or_0_ordem_de_servico" sys_domain="global" view="Default view">554d3d591b80e5d036431f82b24bcb22</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-28 20:00:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_created_on</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-28 20:00:42</sys_created_on>
+            <sys_id>e3bc53a11bc0ed9056100fa9cc4bcba5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ctdi2_sefaz_or_0_ordem_de_servico" sys_domain="global" view="Default view">554d3d591b80e5d036431f82b24bcb22</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-28 20:00:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cpf_cnpj</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-28 20:00:42</sys_created_on>
+            <sys_id>e7bc53a11bc0ed9056100fa9cc4bcba5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ctdi2_sefaz_or_0_ordem_de_servico" sys_domain="global" view="Default view">554d3d591b80e5d036431f82b24bcb22</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-28 20:00:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_string_2</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-28 20:00:42</sys_created_on>
+            <sys_id>ebbc53a11bc0ed9056100fa9cc4bcba5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ctdi2_sefaz_or_0_ordem_de_servico" sys_domain="global" view="Default view">554d3d591b80e5d036431f82b24bcb22</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-28 20:00:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_string_1</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-28 20:00:42</sys_created_on>
+            <sys_id>efbc53a11bc0ed9056100fa9cc4bcba5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ctdi2_sefaz_or_0_ordem_de_servico" sys_domain="global" view="Default view">554d3d591b80e5d036431f82b24bcb22</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-28 20:00:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>nucleo</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-28 20:00:42</sys_created_on>
+            <sys_id>e3bc53a11bc0ed9056100fa9cc4bcba6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ctdi2_sefaz_or_0_ordem_de_servico" sys_domain="global" view="Default view">554d3d591b80e5d036431f82b24bcb22</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-28 20:00:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>consultor_tecnico</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-28 20:00:42</sys_created_on>
+            <sys_id>e7bc53a11bc0ed9056100fa9cc4bcba6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ctdi2_sefaz_or_0_ordem_de_servico" sys_domain="global" view="Default view">554d3d591b80e5d036431f82b24bcb22</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-28 20:00:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-28 20:00:42</sys_created_on>
+            <sys_id>ebbc53a11bc0ed9056100fa9cc4bcba6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ctdi2_sefaz_or_0_ordem_de_servico" sys_domain="global" view="Default view">554d3d591b80e5d036431f82b24bcb22</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-28 20:00:42</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_choice_2</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-28 20:00:42</sys_created_on>
+            <sys_id>efbc53a11bc0ed9056100fa9cc4bcba6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ctdi2_sefaz_or_0_ordem_de_servico" sys_domain="global" view="Default view">554d3d591b80e5d036431f82b24bcb22</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-28 20:00:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>data_de_inicio</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-28 20:00:42</sys_created_on>
+            <sys_id>e3bc53a11bc0ed9056100fa9cc4bcba7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ctdi2_sefaz_or_0_ordem_de_servico" sys_domain="global" view="Default view">554d3d591b80e5d036431f82b24bcb22</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-28 20:00:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>data_de_encerramento</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-28 20:00:42</sys_created_on>
+            <sys_id>e7bc53a11bc0ed9056100fa9cc4bcba7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ctdi2_sefaz_or_0_ordem_de_servico" sys_domain="global" view="Default view">554d3d591b80e5d036431f82b24bcb22</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-28 20:00:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_integer_1</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-28 20:00:42</sys_created_on>
+            <sys_id>ebbc53a11bc0ed9056100fa9cc4bcba7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ctdi2_sefaz_or_0_ordem_de_servico" sys_domain="global" view="Default view">554d3d591b80e5d036431f82b24bcb22</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-28 20:00:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>active</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-28 20:00:42</sys_created_on>
+            <sys_id>efbc53a11bc0ed9056100fa9cc4bcba7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ctdi2_sefaz_or_0_ordem_de_servico" sys_domain="global" view="Default view">554d3d591b80e5d036431f82b24bcb22</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-28 20:00:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>14</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-28 20:00:42</sys_created_on>
+            <sys_id>e3bc53a11bc0ed9056100fa9cc4bcba8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ctdi2_sefaz_or_0_ordem_de_servico" sys_domain="global" view="Default view">554d3d591b80e5d036431f82b24bcb22</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-28 20:00:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_especificao</element>
+            <position>15</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-28 20:00:42</sys_created_on>
+            <sys_id>e7bc53a11bc0ed9056100fa9cc4bcba8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ctdi2_sefaz_or_0_ordem_de_servico" sys_domain="global" view="Default view">554d3d591b80e5d036431f82b24bcb22</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-28 20:00:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_ctdi2_sefaz_or_0_ordem_de_servico</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-27 18:25:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>554d3d591b80e5d036431f82b24bcb22</sys_id>
+            <sys_name>x_ctdi2_sefaz_or_0_ordem_de_servico</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Sefaz Ordem de Serviço" source="x_ctdi2_sefaz_or_0">26fbfd951b80e5d036431f82b24bcb4c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Sefaz Ordem de Serviço">26fbfd951b80e5d036431f82b24bcb4c</sys_scope>
+            <sys_update_name>sys_ui_section_554d3d591b80e5d036431f82b24bcb22</sys_update_name>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

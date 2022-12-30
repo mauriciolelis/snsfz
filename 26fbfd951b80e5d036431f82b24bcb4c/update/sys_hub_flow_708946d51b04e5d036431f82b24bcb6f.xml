@@ -1,0 +1,1283 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from>
+        <copied_from_name>FlowTemplate_Empty</copied_from_name>
+        <description>Carrega Multiplicador do perfil</description>
+        <internal_name>carrega_mutiplicador</internal_name>
+        <label_cache>[{"name":"Criado ou atualizado_1.current","label":"Gatilho - Record Criado ou atualizado➛Calculo do Perfil Record","reference":"x_ctdi2_sefaz_or_0_calculo_do_perfil","reference_display":"Calculo do Perfil","type":"reference","base_type":"reference","attributes":{}},{"name":"014f3f8b-bb4f-4182-8d2e-aed2e71a3ca3.__dont_treat_as_error__","label":"2 - Update Record➛Não tratar como erro","reference_display":"Não tratar como erro","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"014f3f8b-bb4f-4182-8d2e-aed2e71a3ca3.__action_status__","label":"2 - Update Record➛Status da ação","reference_display":"Status da ação","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"014f3f8b-bb4f-4182-8d2e-aed2e71a3ca3.table_name","label":"2 - Update Record➛Calculo do Perfil Tabela","reference":"x_ctdi2_sefaz_or_0_calculo_do_perfil","reference_display":"Calculo do Perfil","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"014f3f8b-bb4f-4182-8d2e-aed2e71a3ca3.record","label":"2 - Update Record➛Calculo do Perfil Record","reference":"x_ctdi2_sefaz_or_0_calculo_do_perfil","reference_display":"Calculo do Perfil","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"fb8a80ef-f10b-44a4-b765-7b39379f4fcd.Record","label":"1 - Look Up Record➛Perfis Lote 1 Record","reference":"x_ctdi2_sefaz_or_0_perfis_lote_1","reference_display":"Perfis Lote 1","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"fb8a80ef-f10b-44a4-b765-7b39379f4fcd.Table","label":"1 - Look Up Record➛Perfis Lote 1 Tabela","reference":"x_ctdi2_sefaz_or_0_perfis_lote_1","reference_display":"Perfis Lote 1","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"fb8a80ef-f10b-44a4-b765-7b39379f4fcd.status","label":"1 - Look Up Record➛Estado","reference_display":"Estado","type":"choice","base_type":"choice","choices":[{"label":"Erro","value":"1","order":0.0},{"label":"Êxito","value":"0","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"fb8a80ef-f10b-44a4-b765-7b39379f4fcd.error_message","label":"1 - Look Up Record➛Mensagem de erro","reference_display":"Mensagem de erro","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"fb8a80ef-f10b-44a4-b765-7b39379f4fcd.__action_status__","label":"1 - Look Up Record➛Status da ação","reference_display":"Status da ação","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"fb8a80ef-f10b-44a4-b765-7b39379f4fcd.__dont_treat_as_error__","label":"1 - Look Up Record➛Não tratar como erro","reference_display":"Não tratar como erro","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Criado ou atualizado_1.current.u_reference_1.perfil","label":"Gatilho - Record Criado ou atualizado➛Calculo do Perfil Record➛Perfil Referencia➛PERFIL","reference":"","reference_display":"PERFIL","type":"string","base_type":"string","parent_table_name":"x_ctdi2_sefaz_or_0_perfis_lote_1","column_name":"perfil"},{"name":"8f8620a9-9dba-493a-b8e8-6c7c83c371eb.record","label":"2 - Create Record➛Calculo do Perfil Record","reference":"x_ctdi2_sefaz_or_0_calculo_do_perfil","reference_display":"Calculo do Perfil","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8f8620a9-9dba-493a-b8e8-6c7c83c371eb.table_name","label":"2 - Create Record➛Calculo do Perfil Tabela","reference":"x_ctdi2_sefaz_or_0_calculo_do_perfil","reference_display":"Calculo do Perfil","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8f8620a9-9dba-493a-b8e8-6c7c83c371eb.__action_status__","label":"2 - Create Record➛Status da ação","reference_display":"Status da ação","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8f8620a9-9dba-493a-b8e8-6c7c83c371eb.__dont_treat_as_error__","label":"2 - Create Record➛Não tratar como erro","reference_display":"Não tratar como erro","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"fb8a80ef-f10b-44a4-b765-7b39379f4fcd.Record.fator","label":"1 - Look Up Record➛Perfis Lote 1 Record➛Fator","reference":"","reference_display":"Fator","type":"decimal","base_type":"decimal","parent_table_name":"x_ctdi2_sefaz_or_0_perfis_lote_1","column_name":"fator"}]</label_cache>
+        <master_snapshot>d63452511b84e5d036431f82b24bcbce</master_snapshot>
+        <name>Carrega Mutiplicador</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>833492511b84e5d036431f82b24bcbc1</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-27 19:18:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>708946d51b04e5d036431f82b24bcb6f</sys_id>
+        <sys_name>Carrega Mutiplicador</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Sefaz Ordem de Serviço" source="x_ctdi2_sefaz_or_0">26fbfd951b80e5d036431f82b24bcb4c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sefaz Ordem de Serviço">26fbfd951b80e5d036431f82b24bcb4c</sys_scope>
+        <sys_update_name>sys_hub_flow_708946d51b04e5d036431f82b24bcb6f</sys_update_name>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=708946d51b04e5d036431f82b24bcb6f"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>708946d51b04e5d036431f82b24bcb6f</documentkey>
+        <fieldname>annotation</fieldname>
+        <language>pb</language>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-27 19:52:16</sys_created_on>
+        <sys_id>563156591b44e5d036431f82b24bcb40</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-27 19:52:16</sys_updated_on>
+        <tablename>sys_hub_flow</tablename>
+        <value/>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>708946d51b04e5d036431f82b24bcb6f</documentkey>
+        <fieldname>name</fieldname>
+        <language>pb</language>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-27 19:52:17</sys_created_on>
+        <sys_id>a23156591b44e5d036431f82b24bcb4d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-27 19:52:17</sys_updated_on>
+        <tablename>sys_hub_flow</tablename>
+        <value>Carrega Mutiplicador</value>
+    </sys_translated_text>
+    <sys_variable_value action="delete_multiple" query="document_key=708946d51b04e5d036431f82b24bcb6f"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_ctdi2_sefaz_or_0_calculo_do_perfil">^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>true</on_insert>
+        <on_update>true</on_update>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-27 20:05:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>833492511b84e5d036431f82b24bcbc1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="Sefaz Ordem de Serviço">26fbfd951b80e5d036431f82b24bcb4c</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-27 20:05:26</sys_updated_on>
+        <table>x_ctdi2_sefaz_or_0_calculo_do_perfil</table>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"run_on_extended":"false","run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any"}</data>
+        <identifier>708946d51b04e5d036431f82b24bcb6f</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-27 20:05:26</sys_created_on>
+        <sys_id>cf3492511b84e5d036431f82b24bcbc1</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-28 17:54:43</sys_updated_on>
+        <trigger display_value="">833492511b84e5d036431f82b24bcbc1</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=708946d51b04e5d036431f82b24bcb6f^sys_idNOT INcf3492511b84e5d036431f82b24bcbc1"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=708946d51b04e5d036431f82b24bcb6f^sys_idNOT IN463116591b44e5d036431f82b24bcbc4"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Carrega Mutiplicador">708946d51b04e5d036431f82b24bcb6f</flow>
+        <name>Criado ou atualizado</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-27 19:52:15</sys_created_on>
+        <sys_id>463116591b44e5d036431f82b24bcbc4</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-27 20:05:26</sys_updated_on>
+        <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create_or_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=463116591b44e5d036431f82b24bcbc4"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>463116591b44e5d036431f82b24bcbc4</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-27 19:52:15</sys_created_on>
+        <sys_id>023116591b44e5d036431f82b24bcbc6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-27 19:52:15</sys_updated_on>
+        <value>x_ctdi2_sefaz_or_0_calculo_do_perfil</value>
+        <variable display_value="Table">cf1e1980c32222002841b63b12d3aea0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>463116591b44e5d036431f82b24bcbc4</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-27 19:52:15</sys_created_on>
+        <sys_id>863116591b44e5d036431f82b24bcbc5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-27 19:52:15</sys_updated_on>
+        <value>^EQ</value>
+        <variable display_value="Condition">707dd180c32222002841b63b12d3aecb</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_output_a45d9180c32222002841b63b12d3aea7^id=463116591b44e5d036431f82b24bcbc4"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=708946d51b04e5d036431f82b24bcb6f"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=708946d51b04e5d036431f82b24bcb6f^sys_idNOT INf48946d51b04e5d036431f82b24bcb71"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>708946d51b04e5d036431f82b24bcb6f</id>
+        <name>Carrega Mutiplicador</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-27 19:18:35</sys_created_on>
+        <sys_id>f48946d51b04e5d036431f82b24bcb71</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-27 19:18:35</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=f48946d51b04e5d036431f82b24bcb71"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=708946d51b04e5d036431f82b24bcb6f^sys_idNOT IN023116591b44e5d036431f82b24bcbb1,793116591b44e5d036431f82b24bcb82,b53116591b44e5d036431f82b24bcbad"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Nome da tabela</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Carrega Mutiplicador">708946d51b04e5d036431f82b24bcb6f</model>
+        <model_id>708946d51b04e5d036431f82b24bcb6f</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_708946d51b04e5d036431f82b24bcb6f</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-27 19:52:14</sys_created_on>
+        <sys_id>023116591b44e5d036431f82b24bcbb1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Sefaz Ordem de Serviço">26fbfd951b80e5d036431f82b24bcb4c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-27 20:05:26</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Registro</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Carrega Mutiplicador">708946d51b04e5d036431f82b24bcb6f</model>
+        <model_id>708946d51b04e5d036431f82b24bcb6f</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_708946d51b04e5d036431f82b24bcb6f</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-27 19:52:13</sys_created_on>
+        <sys_id>793116591b44e5d036431f82b24bcb82</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Sefaz Ordem de Serviço">26fbfd951b80e5d036431f82b24bcb4c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-27 20:05:26</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Campos Mudados</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Carrega Mutiplicador">708946d51b04e5d036431f82b24bcb6f</model>
+        <model_id>708946d51b04e5d036431f82b24bcb6f</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_708946d51b04e5d036431f82b24bcb6f</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-27 19:52:14</sys_created_on>
+        <sys_id>b53116591b44e5d036431f82b24bcbad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Sefaz Ordem de Serviço">26fbfd951b80e5d036431f82b24bcb4c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-27 19:52:14</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=708946d51b04e5d036431f82b24bcb6f"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=708946d51b04e5d036431f82b24bcb6f"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=708946d51b04e5d036431f82b24bcb6f^sys_idNOT IN25c31add1b44e5d036431f82b24bcbb3,ce3116591b44e5d036431f82b24bcbce"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Carrega Mutiplicador">708946d51b04e5d036431f82b24bcb6f</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-27 20:03:24</sys_created_on>
+        <sys_id>25c31add1b44e5d036431f82b24bcbb3</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="Sefaz Ordem de Serviço">26fbfd951b80e5d036431f82b24bcb4c</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-27 20:09:07</sys_updated_on>
+        <ui_id>014f3f8b-bb4f-4182-8d2e-aed2e71a3ca3</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=25c31add1b44e5d036431f82b24bcbb3"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>25c31add1b44e5d036431f82b24bcbb3</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-27 20:03:24</sys_created_on>
+        <sys_id>6dc31add1b44e5d036431f82b24bcbb5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-27 20:03:24</sys_updated_on>
+        <value>x_ctdi2_sefaz_or_0_calculo_do_perfil</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=25c31add1b44e5d036431f82b24bcbb3"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>25c31add1b44e5d036431f82b24bcbb3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-27 20:03:24</sys_created_on>
+        <sys_id>e9c31add1b44e5d036431f82b24bcbb5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-27 20:03:24</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Criado ou atualizado_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>25c31add1b44e5d036431f82b24bcbb3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-27 20:03:24</sys_created_on>
+        <sys_id>61c31add1b44e5d036431f82b24bcbb5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-27 20:03:24</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>25c31add1b44e5d036431f82b24bcbb3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-27 20:03:24</sys_created_on>
+        <sys_id>29c31add1b44e5d036431f82b24bcbb5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-27 20:03:24</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>multiplicador={{fb8a80ef-f10b-44a4-b765-7b39379f4fcd.Record.fator}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=25c31add1b44e5d036431f82b24bcbb3"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=25c31add1b44e5d036431f82b24bcbb3"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Carrega Mutiplicador">708946d51b04e5d036431f82b24bcb6f</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-27 19:52:15</sys_created_on>
+        <sys_id>ce3116591b44e5d036431f82b24bcbce</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Sefaz Ordem de Serviço">26fbfd951b80e5d036431f82b24bcb4c</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-27 20:09:07</sys_updated_on>
+        <ui_id>fb8a80ef-f10b-44a4-b765-7b39379f4fcd</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ce3116591b44e5d036431f82b24bcbce"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ce3116591b44e5d036431f82b24bcbce</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-27 19:52:15</sys_created_on>
+        <sys_id>ca3116591b44e5d036431f82b24bcbd2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-27 19:52:15</sys_updated_on>
+        <value>x_ctdi2_sefaz_or_0_perfis_lote_1</value>
+        <variable display_value="Table">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ce3116591b44e5d036431f82b24bcbce"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>ce3116591b44e5d036431f82b24bcbce</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-27 19:52:15</sys_created_on>
+        <sys_id>423116591b44e5d036431f82b24bcbd2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-27 19:52:15</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value>perfil={{Criado ou atualizado_1.current.u_reference_1.perfil}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>ce3116591b44e5d036431f82b24bcbce</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-27 19:52:15</sys_created_on>
+        <sys_id>4a3116591b44e5d036431f82b24bcbd2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-27 19:52:15</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ce3116591b44e5d036431f82b24bcbce^sys_idNOT IN423116591b44e5d036431f82b24bcbd1"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>sort_type</input_name>
+        <instance>ce3116591b44e5d036431f82b24bcbce</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"sort_type":{"scriptActive":true}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-27 19:52:15</sys_created_on>
+        <sys_id>423116591b44e5d036431f82b24bcbd1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-27 19:52:15</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=ce3116591b44e5d036431f82b24bcbce"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=708946d51b04e5d036431f82b24bcb6f"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=708946d51b04e5d036431f82b24bcb6f"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=708946d51b04e5d036431f82b24bcb6f"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=708946d51b04e5d036431f82b24bcb6f"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_708946d51b04e5d036431f82b24bcb6f^sys_idNOT IN423116591b44e5d036431f82b24bcbb0,463116591b44e5d036431f82b24bcbb3,f53116591b44e5d036431f82b24bcbac"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Campos Mudados</label>
+        <language>pb</language>
+        <name>var__m_sys_hub_flow_input_708946d51b04e5d036431f82b24bcb6f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-27 19:52:14</sys_created_on>
+        <sys_id>423116591b44e5d036431f82b24bcbb0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Sefaz Ordem de Serviço" source="x_ctdi2_sefaz_or_0">26fbfd951b80e5d036431f82b24bcb4c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sefaz Ordem de Serviço">26fbfd951b80e5d036431f82b24bcb4c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-27 19:52:14</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Nome da tabela</label>
+        <language>pb</language>
+        <name>var__m_sys_hub_flow_input_708946d51b04e5d036431f82b24bcb6f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-27 19:52:15</sys_created_on>
+        <sys_id>463116591b44e5d036431f82b24bcbb3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Sefaz Ordem de Serviço" source="x_ctdi2_sefaz_or_0">26fbfd951b80e5d036431f82b24bcb4c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sefaz Ordem de Serviço">26fbfd951b80e5d036431f82b24bcb4c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-27 19:52:15</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Registro</label>
+        <language>pb</language>
+        <name>var__m_sys_hub_flow_input_708946d51b04e5d036431f82b24bcb6f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-27 19:52:14</sys_created_on>
+        <sys_id>f53116591b44e5d036431f82b24bcbac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Sefaz Ordem de Serviço" source="x_ctdi2_sefaz_or_0">26fbfd951b80e5d036431f82b24bcb4c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sefaz Ordem de Serviço">26fbfd951b80e5d036431f82b24bcb4c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-27 19:52:14</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_708946d51b04e5d036431f82b24bcb6f"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_708946d51b04e5d036431f82b24bcb6f"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_708946d51b04e5d036431f82b24bcb6f"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=708946d51b04e5d036431f82b24bcb6f^sys_idNOT IN073492511b84e5d036431f82b24bcbc3"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"073492511b84e5d036431f82b24bcbc3","name":"plan","plan_signature":null}}</plan>
+        <plan_id>708946d51b04e5d036431f82b24bcb6f</plan_id>
+        <snapshot>451516d11b84e5d036431f82b24bcbd1</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-27 20:05:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>073492511b84e5d036431f82b24bcbc3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-27 20:05:26</sys_updated_on>
+        <trigger display_value="">833492511b84e5d036431f82b24bcbc1</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=708946d51b04e5d036431f82b24bcb6f"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Carrega Multiplicador do perfil</description>
+        <internal_name>carrega_mutiplicador</internal_name>
+        <label_cache>[{"name":"Criado ou atualizado_1.current","label":"Gatilho - Record Criado ou atualizado➛Calculo do Perfil Record","reference":"x_ctdi2_sefaz_or_0_calculo_do_perfil","reference_display":"Calculo do Perfil","type":"reference","base_type":"reference","attributes":{}},{"name":"014f3f8b-bb4f-4182-8d2e-aed2e71a3ca3.__dont_treat_as_error__","label":"2 - Update Record➛Não tratar como erro","reference_display":"Não tratar como erro","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"014f3f8b-bb4f-4182-8d2e-aed2e71a3ca3.__action_status__","label":"2 - Update Record➛Status da ação","reference_display":"Status da ação","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"014f3f8b-bb4f-4182-8d2e-aed2e71a3ca3.table_name","label":"2 - Update Record➛Calculo do Perfil Tabela","reference":"x_ctdi2_sefaz_or_0_calculo_do_perfil","reference_display":"Calculo do Perfil","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"014f3f8b-bb4f-4182-8d2e-aed2e71a3ca3.record","label":"2 - Update Record➛Calculo do Perfil Record","reference":"x_ctdi2_sefaz_or_0_calculo_do_perfil","reference_display":"Calculo do Perfil","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"fb8a80ef-f10b-44a4-b765-7b39379f4fcd.Record","label":"1 - Look Up Record➛Perfis Lote 1 Record","reference":"x_ctdi2_sefaz_or_0_perfis_lote_1","reference_display":"Perfis Lote 1","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"fb8a80ef-f10b-44a4-b765-7b39379f4fcd.Table","label":"1 - Look Up Record➛Perfis Lote 1 Tabela","reference":"x_ctdi2_sefaz_or_0_perfis_lote_1","reference_display":"Perfis Lote 1","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"fb8a80ef-f10b-44a4-b765-7b39379f4fcd.status","label":"1 - Look Up Record➛Estado","reference_display":"Estado","type":"choice","base_type":"choice","choices":[{"label":"Erro","value":"1","order":0.0},{"label":"Êxito","value":"0","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"fb8a80ef-f10b-44a4-b765-7b39379f4fcd.error_message","label":"1 - Look Up Record➛Mensagem de erro","reference_display":"Mensagem de erro","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"fb8a80ef-f10b-44a4-b765-7b39379f4fcd.__action_status__","label":"1 - Look Up Record➛Status da ação","reference_display":"Status da ação","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"fb8a80ef-f10b-44a4-b765-7b39379f4fcd.__dont_treat_as_error__","label":"1 - Look Up Record➛Não tratar como erro","reference_display":"Não tratar como erro","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Criado ou atualizado_1.current.u_reference_1.perfil","label":"Gatilho - Record Criado ou atualizado➛Calculo do Perfil Record➛Perfil Referencia➛PERFIL","reference":"","reference_display":"PERFIL","type":"string","base_type":"string","parent_table_name":"x_ctdi2_sefaz_or_0_perfis_lote_1","column_name":"perfil"},{"name":"8f8620a9-9dba-493a-b8e8-6c7c83c371eb.record","label":"2 - Create Record➛Calculo do Perfil Record","reference":"x_ctdi2_sefaz_or_0_calculo_do_perfil","reference_display":"Calculo do Perfil","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8f8620a9-9dba-493a-b8e8-6c7c83c371eb.table_name","label":"2 - Create Record➛Calculo do Perfil Tabela","reference":"x_ctdi2_sefaz_or_0_calculo_do_perfil","reference_display":"Calculo do Perfil","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8f8620a9-9dba-493a-b8e8-6c7c83c371eb.__action_status__","label":"2 - Create Record➛Status da ação","reference_display":"Status da ação","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8f8620a9-9dba-493a-b8e8-6c7c83c371eb.__dont_treat_as_error__","label":"2 - Create Record➛Não tratar como erro","reference_display":"Não tratar como erro","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"fb8a80ef-f10b-44a4-b765-7b39379f4fcd.Record.fator","label":"1 - Look Up Record➛Perfis Lote 1 Record➛Fator","reference":"","reference_display":"Fator","type":"decimal","base_type":"decimal","parent_table_name":"x_ctdi2_sefaz_or_0_perfis_lote_1","column_name":"fator"}]</label_cache>
+        <master>true</master>
+        <name>Carrega Mutiplicador</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Carrega Mutiplicador">708946d51b04e5d036431f82b24bcb6f</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-27 20:05:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d63452511b84e5d036431f82b24bcbce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Sefaz Ordem de Serviço">26fbfd951b80e5d036431f82b24bcb4c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-27 20:05:23</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=d63452511b84e5d036431f82b24bcbce"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>d63452511b84e5d036431f82b24bcbce</documentkey>
+        <fieldname>annotation</fieldname>
+        <language>pb</language>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-27 20:05:23</sys_created_on>
+        <sys_id>563452511b84e5d036431f82b24bcbcf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-27 20:05:23</sys_updated_on>
+        <tablename>sys_hub_flow_snapshot</tablename>
+        <value/>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>d63452511b84e5d036431f82b24bcbce</documentkey>
+        <fieldname>name</fieldname>
+        <language>pb</language>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-27 20:05:23</sys_created_on>
+        <sys_id>de3452511b84e5d036431f82b24bcbcf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-27 20:05:23</sys_updated_on>
+        <tablename>sys_hub_flow_snapshot</tablename>
+        <value>Carrega Mutiplicador</value>
+    </sys_translated_text>
+    <sys_variable_value action="delete_multiple" query="document_key=d63452511b84e5d036431f82b24bcbce"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=d63452511b84e5d036431f82b24bcbce^sys_idNOT INba3492511b84e5d036431f82b24bcb6f"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Carrega Mutiplicador">d63452511b84e5d036431f82b24bcbce</flow>
+        <name>Criado ou atualizado</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-27 20:05:25</sys_created_on>
+        <sys_id>ba3492511b84e5d036431f82b24bcb6f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-27 20:05:26</sys_updated_on>
+        <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create_or_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ba3492511b84e5d036431f82b24bcb6f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>ba3492511b84e5d036431f82b24bcb6f</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-27 20:05:25</sys_created_on>
+        <sys_id>3e3492511b84e5d036431f82b24bcb71</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-27 20:05:25</sys_updated_on>
+        <value>x_ctdi2_sefaz_or_0_calculo_do_perfil</value>
+        <variable display_value="Table">cf1e1980c32222002841b63b12d3aea0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>ba3492511b84e5d036431f82b24bcb6f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-27 20:05:25</sys_created_on>
+        <sys_id>7a3492511b84e5d036431f82b24bcb71</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-27 20:05:25</sys_updated_on>
+        <value>^EQ</value>
+        <variable display_value="Condition">707dd180c32222002841b63b12d3aecb</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_output_a45d9180c32222002841b63b12d3aea7^id=ba3492511b84e5d036431f82b24bcb6f"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=d63452511b84e5d036431f82b24bcbce"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=d63452511b84e5d036431f82b24bcbce^sys_idNOT IN5a3452511b84e5d036431f82b24bcbd0"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>d63452511b84e5d036431f82b24bcbce</id>
+        <name>Carrega Mutiplicador</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-27 20:05:23</sys_created_on>
+        <sys_id>5a3452511b84e5d036431f82b24bcbd0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-27 20:05:23</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=5a3452511b84e5d036431f82b24bcbd0"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=d63452511b84e5d036431f82b24bcbce^sys_idNOT IN9e3452511b84e5d036431f82b24bcbd1,a63452511b84e5d036431f82b24bcbf5,ae3452511b84e5d036431f82b24bcbec"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Registro</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Carrega Mutiplicador">d63452511b84e5d036431f82b24bcbce</model>
+        <model_id>d63452511b84e5d036431f82b24bcbce</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_d63452511b84e5d036431f82b24bcbce</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-27 20:05:23</sys_created_on>
+        <sys_id>9e3452511b84e5d036431f82b24bcbd1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Sefaz Ordem de Serviço">26fbfd951b80e5d036431f82b24bcb4c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-27 20:05:23</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Nome da tabela</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Carrega Mutiplicador">d63452511b84e5d036431f82b24bcbce</model>
+        <model_id>d63452511b84e5d036431f82b24bcbce</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_d63452511b84e5d036431f82b24bcbce</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-27 20:05:24</sys_created_on>
+        <sys_id>a63452511b84e5d036431f82b24bcbf5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Sefaz Ordem de Serviço">26fbfd951b80e5d036431f82b24bcb4c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-27 20:05:24</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Campos Mudados</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Carrega Mutiplicador">d63452511b84e5d036431f82b24bcbce</model>
+        <model_id>d63452511b84e5d036431f82b24bcbce</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_d63452511b84e5d036431f82b24bcbce</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-27 20:05:23</sys_created_on>
+        <sys_id>ae3452511b84e5d036431f82b24bcbec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Sefaz Ordem de Serviço">26fbfd951b80e5d036431f82b24bcb4c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-27 20:05:23</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=d63452511b84e5d036431f82b24bcbce"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=d63452511b84e5d036431f82b24bcbce"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=d63452511b84e5d036431f82b24bcbce^sys_idNOT IN323492511b84e5d036431f82b24bcb57,f63492511b84e5d036431f82b24bcb6d"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Carrega Mutiplicador">d63452511b84e5d036431f82b24bcbce</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-27 20:05:25</sys_created_on>
+        <sys_id>323492511b84e5d036431f82b24bcb57</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Sefaz Ordem de Serviço">26fbfd951b80e5d036431f82b24bcb4c</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-27 20:05:25</sys_updated_on>
+        <ui_id>fb8a80ef-f10b-44a4-b765-7b39379f4fcd</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=323492511b84e5d036431f82b24bcb57"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>323492511b84e5d036431f82b24bcb57</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-27 20:05:25</sys_created_on>
+        <sys_id>f63492511b84e5d036431f82b24bcb66</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-27 20:05:25</sys_updated_on>
+        <value>x_ctdi2_sefaz_or_0_perfis_lote_1</value>
+        <variable display_value="Table">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=323492511b84e5d036431f82b24bcb57"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>323492511b84e5d036431f82b24bcb57</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-27 20:05:25</sys_created_on>
+        <sys_id>be3492511b84e5d036431f82b24bcb65</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-27 20:05:25</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value>perfil={{Criado ou atualizado_1.current.u_reference_1.perfil}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>323492511b84e5d036431f82b24bcb57</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-27 20:05:25</sys_created_on>
+        <sys_id>763492511b84e5d036431f82b24bcb66</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-27 20:05:25</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=323492511b84e5d036431f82b24bcb57^sys_idNOT IN7a3492511b84e5d036431f82b24bcb58"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>sort_type</input_name>
+        <instance>323492511b84e5d036431f82b24bcb57</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"sort_type":{"scriptActive":true}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-27 20:05:25</sys_created_on>
+        <sys_id>7a3492511b84e5d036431f82b24bcb58</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-27 20:05:25</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=323492511b84e5d036431f82b24bcb57"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Carrega Mutiplicador">d63452511b84e5d036431f82b24bcbce</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-27 20:05:25</sys_created_on>
+        <sys_id>f63492511b84e5d036431f82b24bcb6d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Sefaz Ordem de Serviço">26fbfd951b80e5d036431f82b24bcb4c</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-27 20:05:25</sys_updated_on>
+        <ui_id>014f3f8b-bb4f-4182-8d2e-aed2e71a3ca3</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=f63492511b84e5d036431f82b24bcb6d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>f63492511b84e5d036431f82b24bcb6d</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-27 20:05:25</sys_created_on>
+        <sys_id>363492511b84e5d036431f82b24bcb6f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-27 20:05:25</sys_updated_on>
+        <value>x_ctdi2_sefaz_or_0_calculo_do_perfil</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=f63492511b84e5d036431f82b24bcb6d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>f63492511b84e5d036431f82b24bcb6d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-27 20:05:25</sys_created_on>
+        <sys_id>b23492511b84e5d036431f82b24bcb6f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-27 20:05:25</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Criado ou atualizado_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>f63492511b84e5d036431f82b24bcb6d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-27 20:05:25</sys_created_on>
+        <sys_id>3e3492511b84e5d036431f82b24bcb6e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-27 20:05:25</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>f63492511b84e5d036431f82b24bcb6d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-27 20:05:25</sys_created_on>
+        <sys_id>fe3492511b84e5d036431f82b24bcb6e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-27 20:05:25</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>multiplicador={{fb8a80ef-f10b-44a4-b765-7b39379f4fcd.Record.fator}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f63492511b84e5d036431f82b24bcb6d"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=f63492511b84e5d036431f82b24bcb6d"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=d63452511b84e5d036431f82b24bcbce"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=d63452511b84e5d036431f82b24bcbce"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=d63452511b84e5d036431f82b24bcbce"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=d63452511b84e5d036431f82b24bcbce"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_d63452511b84e5d036431f82b24bcbce^sys_idNOT IN663452511b84e5d036431f82b24bcbe9,6e3452511b84e5d036431f82b24bcbf1,7a3492511b84e5d036431f82b24bcb06"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Registro</label>
+        <language>pb</language>
+        <name>var__m_sys_hub_flow_input_d63452511b84e5d036431f82b24bcbce</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-27 20:05:23</sys_created_on>
+        <sys_id>663452511b84e5d036431f82b24bcbe9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Sefaz Ordem de Serviço" source="x_ctdi2_sefaz_or_0">26fbfd951b80e5d036431f82b24bcb4c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sefaz Ordem de Serviço">26fbfd951b80e5d036431f82b24bcb4c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-27 20:05:23</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Campos Mudados</label>
+        <language>pb</language>
+        <name>var__m_sys_hub_flow_input_d63452511b84e5d036431f82b24bcbce</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-27 20:05:24</sys_created_on>
+        <sys_id>6e3452511b84e5d036431f82b24bcbf1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Sefaz Ordem de Serviço" source="x_ctdi2_sefaz_or_0">26fbfd951b80e5d036431f82b24bcb4c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sefaz Ordem de Serviço">26fbfd951b80e5d036431f82b24bcb4c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-27 20:05:24</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Nome da tabela</label>
+        <language>pb</language>
+        <name>var__m_sys_hub_flow_input_d63452511b84e5d036431f82b24bcbce</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-27 20:05:24</sys_created_on>
+        <sys_id>7a3492511b84e5d036431f82b24bcb06</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Sefaz Ordem de Serviço" source="x_ctdi2_sefaz_or_0">26fbfd951b80e5d036431f82b24bcb4c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sefaz Ordem de Serviço">26fbfd951b80e5d036431f82b24bcb4c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-27 20:05:24</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_d63452511b84e5d036431f82b24bcbce"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_d63452511b84e5d036431f82b24bcbce"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_d63452511b84e5d036431f82b24bcbce"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>708946d51b04e5d036431f82b24bcb6f</sys_id>
+        <latest_snapshot>d63452511b84e5d036431f82b24bcbce</latest_snapshot>
+        <compiler_build>glide-tokyo-07-08-2022__patch1b-11-03-2022_11-14-2022_1555.zip</compiler_build>
+    </sys_hub_flow>
+</record_update>

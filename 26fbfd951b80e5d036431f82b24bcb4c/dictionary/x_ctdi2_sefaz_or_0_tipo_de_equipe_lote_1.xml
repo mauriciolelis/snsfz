@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="3ea69ba11b40a9d036431f82b24bcbd3" label="Tipo de Equipe Lote 1" max_length="40" name="x_ctdi2_sefaz_or_0_tipo_de_equipe_lote_1" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Componentes e Atualização" max_length="40" name="componentes_e_atualiza_o" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Especial" max_length="40" name="especial" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Integrações" max_length="40" name="integra_es" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Inteligência de Negócio (BI)" max_length="40" name="intelig_ncia_de_neg_cio_bi" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="LOTE 1" max_length="40" name="lote_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Os de referencia" max_length="32" name="os_de_referencia" reference="x_ctdi2_sefaz_or_0_ordem_de_servico" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Projeto" max_length="40" name="projeto" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Sustentação" max_length="40" name="sustenta_o" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element attributes="edge_encryption_enabled=true" label="Web Design" max_length="40" name="web_design" type="string"/>
+        <index name="index">
+            <element name="os_de_referencia"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

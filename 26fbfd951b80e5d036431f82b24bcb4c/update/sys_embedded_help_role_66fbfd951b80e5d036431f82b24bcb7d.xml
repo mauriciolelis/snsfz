@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_ctdi2_sefaz_or_0.adm_sefaz_os" name="x_ctdi2_sefaz_or_0.adm_sefaz_os">62fbfd951b80e5d036431f82b24bcb55</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-27 18:19:26</sys_created_on>
+        <sys_id>66fbfd951b80e5d036431f82b24bcb7d</sys_id>
+        <sys_name>62fbfd951b80e5d036431f82b24bcb55</sys_name>
+        <sys_package display_value="Sefaz Ordem de Serviço" source="x_ctdi2_sefaz_or_0">26fbfd951b80e5d036431f82b24bcb4c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sefaz Ordem de Serviço">26fbfd951b80e5d036431f82b24bcb4c</sys_scope>
+        <sys_update_name>sys_embedded_help_role_66fbfd951b80e5d036431f82b24bcb7d</sys_update_name>
+    </sys_embedded_help_role>
+</record_update>

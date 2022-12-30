@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_entry">
+    <sys_transform_entry action="INSERT_OR_UPDATE">
+        <choice_action>create</choice_action>
+        <coalesce>false</coalesce>
+        <coalesce_case_sensitive>false</coalesce_case_sensitive>
+        <coalesce_empty_fields>false</coalesce_empty_fields>
+        <date_format>yyyy-MM-dd HH:mm:ss</date_format>
+        <map display_value="x_ctdi2_sefaz_or_0_tipo_de_equipe_lote_1_transform_map">4db613a11b40a9d036431f82b24bcb6d</map>
+        <reference_value_field/>
+        <source_field>u_especial</source_field>
+        <source_script><![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]></source_script>
+        <source_table>x_ctdi2_sefaz_or_0_1672255964035</source_table>
+        <sys_class_name>sys_transform_entry</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-28 19:34:19</sys_created_on>
+        <sys_id>09b61fa11b40a9d036431f82b24bcbb6</sys_id>
+        <sys_name>u_especial</sys_name>
+        <sys_package display_value="Sefaz Ordem de Serviço" source="x_ctdi2_sefaz_or_0">26fbfd951b80e5d036431f82b24bcb4c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sefaz Ordem de Serviço">26fbfd951b80e5d036431f82b24bcb4c</sys_scope>
+        <sys_update_name>sys_transform_entry_09b61fa11b40a9d036431f82b24bcbb6</sys_update_name>
+        <target_field>especial</target_field>
+        <target_table>x_ctdi2_sefaz_or_0_tipo_de_equipe_lote_1</target_table>
+        <use_source_script>false</use_source_script>
+    </sys_transform_entry>
+</record_update>

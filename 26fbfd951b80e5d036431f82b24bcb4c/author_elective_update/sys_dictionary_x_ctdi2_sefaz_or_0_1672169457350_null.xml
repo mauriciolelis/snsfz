@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="" extends="sys_import_set_row" table="x_ctdi2_sefaz_or_0_1672169457350">
+        <active>true</active>
+        <array>false</array>
+        <attributes/>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="Collection">collection</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <name>x_ctdi2_sefaz_or_0_1672169457350</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-27 19:30:59</sys_created_on>
+        <sys_id>6a5c82dd1b04e5d036431f82b24bcbd9</sys_id>
+        <sys_name>x_ctdi2_sefaz_or_0_1672169457350</sys_name>
+        <sys_package display_value="Sefaz Ordem de Serviço" source="x_ctdi2_sefaz_or_0">26fbfd951b80e5d036431f82b24bcb4c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sefaz Ordem de Serviço">26fbfd951b80e5d036431f82b24bcb4c</sys_scope>
+        <sys_update_name>sys_dictionary_x_ctdi2_sefaz_or_0_1672169457350_null</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-27 19:30:59</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Sefaz Ordem de Serviço">26fbfd951b80e5d036431f82b24bcb4c</application>
+        <file_path/>
+        <instance_id>7ed1d16ddb79e0949df22f17d4961916</instance_id>
+        <instance_name>ciberiantecnologiadainformacaoltdademo4</instance_name>
+        <name>sys_dictionary_x_ctdi2_sefaz_or_0_1672169457350_null</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="" extends="sys_import_set_row" table="x_ctdi2_sefaz_or_0_1672169457350"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label/><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element/><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="Collection">collection</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>x_ctdi2_sefaz_or_0_1672169457350</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-12-27 19:30:59</sys_created_on><sys_id>6a5c82dd1b04e5d036431f82b24bcbd9</sys_id><sys_name>x_ctdi2_sefaz_or_0_1672169457350</sys_name><sys_package display_value="Sefaz Ordem de Serviço" source="x_ctdi2_sefaz_or_0">26fbfd951b80e5d036431f82b24bcb4c</sys_package><sys_policy/><sys_scope display_value="Sefaz Ordem de Serviço">26fbfd951b80e5d036431f82b24bcb4c</sys_scope><sys_update_name>sys_dictionary_x_ctdi2_sefaz_or_0_1672169457350_null</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-12-27 19:30:59</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>2109818794</payload_hash>
+        <record_name>Sefaz Or 0 1672169457350</record_name>
+        <reverted_from/>
+        <source>a6fbfd951b80e5d036431f82b24bcb50</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-27 19:31:00</sys_created_on>
+        <sys_id>325c82dd1b04e5d036431f82b24bcbf4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>185551113440000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-27 19:31:00</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>3a5c82dde304e5d09e586589f2a97ff3</update_guid>
+        <update_guid_history>3a5c82dde304e5d09e586589f2a97ff3:2109818794</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-27 19:33:21</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>bf73bf76fd2b4ed0a0f491b14c359a40</sys_id>
+        <sys_metadata>6a5c82dd1b04e5d036431f82b24bcbd9</sys_metadata>
+        <sys_name>x_ctdi2_sefaz_or_0_1672169457350</sys_name>
+        <sys_package display_value="Sefaz Ordem de Serviço" source="x_ctdi2_sefaz_or_0">26fbfd951b80e5d036431f82b24bcb4c</sys_package>
+        <sys_parent display_value="">da5c82dd1b04e5d036431f82b24bcbd7</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Sefaz Ordem de Serviço">26fbfd951b80e5d036431f82b24bcb4c</sys_scope>
+        <sys_scope_delete display_value="">025ef41d02f94079b85e5a79da6a9d59</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_ctdi2_sefaz_or_0_1672169457350_null</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_ctdi2_sefaz_or_0_1672169457350_null">325c82dd1b04e5d036431f82b24bcbf4</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

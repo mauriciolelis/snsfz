@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="cnpj_cpf" label="CNPJ_CPF" language="en" table="x_ctdi2_sefaz_or_0_dados_de_contrato">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>cnpj_cpf</element>
+            <help/>
+            <hint/>
+            <label>CNPJ_CPF</label>
+            <language>en</language>
+            <name>x_ctdi2_sefaz_or_0_dados_de_contrato</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-27 18:38:51</sys_created_on>
+            <sys_name>CNPJ_CPF</sys_name>
+            <sys_package display_value="Sefaz Ordem de Serviço" source="x_ctdi2_sefaz_or_0">26fbfd951b80e5d036431f82b24bcb4c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Sefaz Ordem de Serviço">26fbfd951b80e5d036431f82b24bcb4c</sys_scope>
+            <sys_update_name>sys_documentation_x_ctdi2_sefaz_or_0_dados_de_contrato_cnpj_cpf_en</sys_update_name>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
