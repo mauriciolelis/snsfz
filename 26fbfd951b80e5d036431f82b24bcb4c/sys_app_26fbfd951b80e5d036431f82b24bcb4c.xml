@@ -22,7 +22,7 @@
         <scoped_administration>false</scoped_administration>
         <short_description>Geração de Ordem de Serviços</short_description>
         <source>x_ctdi2_sefaz_or_0</source>
-        <store_correlation_id>REPOAPP0000757028</store_correlation_id>
+        <store_correlation_id>REPOAPP0000757086</store_correlation_id>
         <store_url/>
         <sys_class_name>sys_app</sys_class_name>
         <sys_code/>
