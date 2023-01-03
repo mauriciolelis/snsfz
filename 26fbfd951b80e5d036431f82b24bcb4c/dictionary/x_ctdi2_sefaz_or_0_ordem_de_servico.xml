@@ -20,11 +20,12 @@
             </choice>
         </element>
         <element label="Valor da UST" max_length="15" name="u_decimal_1" read_only="true" type="decimal"/>
-        <element formula="MULTIPLY(u_decimal_1,u_decimal_3)" label="Valor Total da OS" max_length="15" name="u_decimal_2" type="decimal" virtual="true" virtual_type="formula"/>
-        <element label="Total de USTs da OS" max_length="15" name="u_decimal_3" type="decimal"/>
+        <element formula="MULTIPLY(u_decimal_1,u_decimal_3)" label="Valor Total da OS" max_length="15" name="u_decimal_2" read_only="true" type="decimal" virtual="true" virtual_type="formula"/>
+        <element label="Total de USTs da OS" max_length="15" name="u_decimal_3" read_only="true" type="decimal"/>
         <element attributes="edge_encryption_enabled=true" label="Especificação" max_length="100" name="u_especificao" type="string"/>
-        <element formula="TIMEDIFF(data_de_inicio,data_de_encerramento)" label="Duracao da OS" max_length="40" name="u_integer_1" type="integer" virtual="true" virtual_type="formula"/>
+        <element formula="TIMEDIFF(data_de_inicio,data_de_encerramento)" label="Duracao da OS" max_length="40" name="u_integer_1" read_only="true" type="integer" virtual="true" virtual_type="formula"/>
         <element attributes="edge_encryption_enabled=true" label="Lote do Contrato" max_length="40" name="u_string_1" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Nome da Contratada" max_length="40" name="u_string_2" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Total de USTS da OS String" max_length="40" name="u_string_3" type="string"/>
     </element>
 </database>

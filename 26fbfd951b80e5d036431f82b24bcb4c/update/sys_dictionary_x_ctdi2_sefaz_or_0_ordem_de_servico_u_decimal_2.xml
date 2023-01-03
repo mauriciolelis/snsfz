@@ -33,7 +33,7 @@
         <name>x_ctdi2_sefaz_or_0_ordem_de_servico</name>
         <next_element/>
         <primary>false</primary>
-        <read_only>false</read_only>
+        <read_only>true</read_only>
         <read_roles/>
         <reference/>
         <reference_cascade_rule/>

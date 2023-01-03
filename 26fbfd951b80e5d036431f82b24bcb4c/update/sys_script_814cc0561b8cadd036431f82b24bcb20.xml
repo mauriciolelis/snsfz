@@ -5,7 +5,7 @@
         <action_delete>false</action_delete>
         <action_insert>false</action_insert>
         <action_query>false</action_query>
-        <action_update>false</action_update>
+        <action_update>true</action_update>
         <active>false</active>
         <add_message>false</add_message>
         <advanced>true</advanced>
@@ -29,23 +29,6 @@
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
 
-	var numOS = new GlideRecord("ordem_servico");
-
-	numOS.addEncondedQuery('duracao!=NULL');
-	var numeroDaOS = numOS.Query('number', current.number);
-	numOS.query();
-
-
-	var ustSoma = newGlideAggregate('calculo_do_perfil');
-
-	ustSoma.Query('ust', numeroDaOs);
-	ustSoma.addAggregate('SUM', ust);
-	ustSoma.query();
-
-	
-	current.ordem_servico.valor_tota_usts = somadDasUsts;
-
-	current.update();
 
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>

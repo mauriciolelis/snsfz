@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="u_integer_1" table="x_ctdi2_sefaz_or_0_ordem_de_servico">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="u_string_3" table="x_ctdi2_sefaz_or_0_ordem_de_servico">
         <active>true</active>
         <array>false</array>
-        <attributes/>
+        <attributes>edge_encryption_enabled=true</attributes>
         <audit>false</audit>
         <calculation/>
         <choice>0</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Duracao da OS</column_label>
+        <column_label>Total de USTS da OS String</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -21,19 +21,19 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>u_integer_1</element>
+        <element>u_string_3</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula>TIMEDIFF(data_de_inicio,data_de_encerramento)</formula>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Integer">integer</internal_type>
+        <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
         <name>x_ctdi2_sefaz_or_0_ordem_de_servico</name>
         <next_element/>
         <primary>false</primary>
-        <read_only>true</read_only>
+        <read_only>false</read_only>
         <read_roles/>
         <reference/>
         <reference_cascade_rule/>
@@ -46,20 +46,20 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-12-27 19:25:44</sys_created_on>
-        <sys_name>Duracao da OS</sys_name>
+        <sys_created_on>2022-12-31 00:29:06</sys_created_on>
+        <sys_name>Total de USTS da OS String</sys_name>
         <sys_package display_value="Sefaz Ordem de Serviço" source="x_ctdi2_sefaz_or_0">26fbfd951b80e5d036431f82b24bcb4c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Sefaz Ordem de Serviço">26fbfd951b80e5d036431f82b24bcb4c</sys_scope>
-        <sys_update_name>sys_dictionary_x_ctdi2_sefaz_or_0_ordem_de_servico_u_integer_1</sys_update_name>
+        <sys_update_name>sys_dictionary_x_ctdi2_sefaz_or_0_ordem_de_servico_u_string_3</sys_update_name>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>true</virtual>
-        <virtual_type>formula</virtual_type>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>

@@ -7,8 +7,8 @@
         <element label="Quantidade" max_length="40" name="quantidade" type="integer"/>
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
         <element formula="MULTIPLY(MULTIPLY(MULTIPLY(multiplicador,quantidade),8), duracao_para_caulculo)" label="Ust" max_length="20" name="ust" read_only="true" type="decimal" virtual="true" virtual_type="formula"/>
-        <element attributes="encode_utf8=false" display="true" label="Perfil Referencia" max_length="32" name="u_reference_1" reference="x_ctdi2_sefaz_or_0_perfis_lote_1" type="reference"/>
-        <element attributes="encode_utf8=false" label="OS de Referencia para Calculo" max_length="32" name="u_reference_2" read_only="true" reference="x_ctdi2_sefaz_or_0_ordem_de_servico" type="reference"/>
+        <element attributes="encode_utf8=false" label="Perfil Referencia" max_length="32" name="u_reference_1" reference="x_ctdi2_sefaz_or_0_perfis_lote_1" type="reference"/>
+        <element attributes="encode_utf8=false" display="true" label="OS de Referencia para Calculo" max_length="32" name="u_reference_2" read_only="true" reference="x_ctdi2_sefaz_or_0_ordem_de_servico" type="reference"/>
         <index name="index">
             <element name="duracao_para_caulculo"/>
         </index>
