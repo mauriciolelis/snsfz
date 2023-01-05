@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Sefaz - Ordens de Serviços">5349601a1b80edd036431f82b24bcb76</application>
+        <assessment/>
+        <device_type/>
+        <filter table="sys_attachment">file_nameLIKEsefaz^EQ<item endquery="false" field="file_name" goto="false" newquery="false" operator="LIKE" or="false" value="sefaz"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>OSs para Impressão</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>sys_attachment</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-05 15:17:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a528af4c1b14615436431f82b24bcb43</sys_id>
+        <sys_name>OSs para Impressão</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Sefaz Ordem de Serviço" source="x_ctdi2_sefaz_or_0">26fbfd951b80e5d036431f82b24bcb4c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sefaz Ordem de Serviço">26fbfd951b80e5d036431f82b24bcb4c</sys_scope>
+        <sys_update_name>sys_app_module_a528af4c1b14615436431f82b24bcb43</sys_update_name>
+        <timeline_page/>
+        <title>OSs para Impressão</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_doc_pdf_template_mapping">
+    <sn_doc_pdf_template_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <advanced_script_toggle>false</advanced_script_toggle>
+        <box_height/>
+        <box_width/>
+        <date_offset_quantity>0</date_offset_quantity>
+        <date_offset_type>on</date_offset_type>
+        <date_offset_units>days</date_offset_units>
+        <doc_left/>
+        <doc_top/>
+        <document display_value="Template da OS SEFAZ">249703c41b10615436431f82b24bcbed</document>
+        <document_field>Adicional Agile Master</document_field>
+        <document_field_label>Adicional Agile Master</document_field_label>
+        <document_field_type>text</document_field_type>
+        <format/>
+        <mandatory>false</mandatory>
+        <mapping_field/>
+        <mapping_table>x_ctdi2_sefaz_or_0_ordem_de_servico</mapping_table>
+        <page_number>2</page_number>
+        <participant/>
+        <preview_value>Adicional Agile Master</preview_value>
+        <read_only>false</read_only>
+        <script/>
+        <select_date_format/>
+        <sign_left/>
+        <sign_top/>
+        <specific_date_format/>
+        <states/>
+        <sys_class_name>sn_doc_pdf_template_mapping</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-05 12:53:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>43c78bc41b10615436431f82b24bcbdf</sys_id>
+        <sys_name>249703c41b10615436431f82b24bcbed</sys_name>
+        <sys_package display_value="Sefaz Ordem de Serviço" source="x_ctdi2_sefaz_or_0">26fbfd951b80e5d036431f82b24bcb4c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sefaz Ordem de Serviço">26fbfd951b80e5d036431f82b24bcb4c</sys_scope>
+        <sys_update_name>sn_doc_pdf_template_mapping_43c78bc41b10615436431f82b24bcbdf</sys_update_name>
+    </sn_doc_pdf_template_mapping>
+</record_update>

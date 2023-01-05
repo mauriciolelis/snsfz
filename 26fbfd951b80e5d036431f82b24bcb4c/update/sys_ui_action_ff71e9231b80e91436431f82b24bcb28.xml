@@ -27,14 +27,32 @@
         <list_save_with_form_button>false</list_save_with_form_button>
         <list_style/>
         <messages/>
-        <name>SEFAZ-PDF-OS</name>
+        <name>SEFAZ - Criar PDF da OS</name>
         <onclick/>
-        <order>100</order>
-        <script><![CDATA[var attachementSysis = 'db35a16b1b80e91436431f82b24bcb3c';
+        <order>800</order>
+        <script><![CDATA[var pdf = new global.GeneralPdfUtils();
+
+var attachementSysId = 'f91f8fc41b50615436431f82b24bcb37';
 var jsonObject = {};
 
-//jsonObject['NOME'] = String(current.u_string_2);
+jsonObject['NOME'] = String(current.u_string_2);
 //jsonObject['CNPJ/CPF'] = String(current.cpf_cnpj);
+//jsonObject['Lote do Contrato'] = String(current.u_string_1);
+//jsonObject['Tipo Equipe'] = String(current.u_choice_2);
+//jsonObject['Especificacao'] = String(current.u_especificacao);
+//jsonObject['Consultor Tecnico'] = String(current.u_choice_2);
+//jsonObject['Núcleo'] = String(current.nucleo);
+//jsonObject['Valor da UST'] = String(current.u_decimal_1);
+
+var jsonString = JSON.stringify(jsonObject);
+var tabelaDestino = 'x_ctdi2_sefaz_or_0_ordem_de_servico';
+var tabelaDestinoSysId = '191db1591b80e5d036431f82b24bcbb1';
+var nomeDoPDF = current.number + '-OSSefaz.pdf';
+
+
+pdf.prefillPdf(jsonString, tabelaDestinoSysId, attachementSysId, tabelaDestino, nomeDoPDF);
+
+action.setRedirectURL(current);
 ]]></script>
         <show_insert>true</show_insert>
         <show_multiple_update>false</show_multiple_update>
@@ -46,7 +64,7 @@ var jsonObject = {};
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ff71e9231b80e91436431f82b24bcb28</sys_id>
-        <sys_name>SEFAZ-PDF-OS</sys_name>
+        <sys_name>SEFAZ - Criar PDF da OS</sys_name>
         <sys_overrides/>
         <sys_package display_value="Sefaz Ordem de Serviço" source="x_ctdi2_sefaz_or_0">26fbfd951b80e5d036431f82b24bcb4c</sys_package>
         <sys_policy/>
