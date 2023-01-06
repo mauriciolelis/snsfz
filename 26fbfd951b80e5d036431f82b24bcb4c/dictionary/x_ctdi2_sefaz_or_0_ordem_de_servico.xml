@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="191db1591b80e5d036431f82b24bcbb1" extends="task" label="Sefaz_Ordem_de_servico" max_length="40" name="x_ctdi2_sefaz_or_0_ordem_de_servico" type="collection">
         <element label="Consultor tecnico" max_length="40" name="consultor_tecnico" type="string"/>
-        <element label="CPF_CNPJ" max_length="40" name="cpf_cnpj" type="string"/>
+        <element label="CPF_CNPJ" mandatory="true" max_length="40" name="cpf_cnpj" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Data de Encerramento" mandatory="true" max_length="40" name="data_de_encerramento" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" label="Data de Inicio" mandatory="true" max_length="40" name="data_de_inicio" type="glide_date"/>
         <element label="Dias uteis" max_length="40" name="dias_uteis" type="integer"/>
@@ -22,7 +22,7 @@
         <element label="Valor da UST" max_length="15" name="u_decimal_1" read_only="true" type="decimal"/>
         <element formula="MULTIPLY(u_decimal_1,u_decimal_3)" label="Valor Total da OS" max_length="15" name="u_decimal_2" read_only="true" type="decimal" virtual="true" virtual_type="formula"/>
         <element label="Total de USTs da OS" max_length="15" name="u_decimal_3" read_only="true" type="decimal"/>
-        <element attributes="edge_encryption_enabled=true" label="Especificação" max_length="100" name="u_especificao" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Especificação" max_length="500" name="u_especificao" type="string"/>
         <element formula="TIMEDIFF(data_de_inicio,data_de_encerramento)" label="Duracao da OS" max_length="40" name="u_integer_1" read_only="true" type="integer" virtual="true" virtual_type="formula"/>
         <element attributes="edge_encryption_enabled=true" label="Lote do Contrato" max_length="40" name="u_string_1" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Nome da Contratada" max_length="40" name="u_string_2" read_only="true" type="string"/>
