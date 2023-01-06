@@ -2,7 +2,7 @@
     <sys_hub_flow action="INSERT_OR_UPDATE">
         <access>public</access>
         <acls/>
-        <active>true</active>
+        <active>false</active>
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
@@ -66,16 +66,16 @@
         <table>x_ctdi2_sefaz_or_0_ordem_de_servico</table>
     </sys_flow_record_trigger>
     <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
+        <active>false</active>
+        <data>{"run_on_extended":"false","run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any"}</data>
         <identifier>f869b76d1b44a9d036431f82b24bcb52</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-01-03 16:22:56</sys_created_on>
         <sys_id>c874e12b1b80e91436431f82b24bcb8f</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-01-03 16:22:56</sys_updated_on>
+        <sys_updated_on>2023-01-06 12:49:28</sys_updated_on>
         <trigger display_value="">a8aad72d1b40a9d036431f82b24bcbb4</trigger>
     </sys_trigger_runner_mapping>
     <sys_trigger_runner_mapping action="delete_multiple" query="identifier=f869b76d1b44a9d036431f82b24bcb52^sys_idNOT INc874e12b1b80e91436431f82b24bcb8f"/>
@@ -1123,7 +1123,7 @@
         <sys_scope display_value="Sefaz Ordem de Serviço">26fbfd951b80e5d036431f82b24bcb4c</sys_scope>
         <sys_update_name>sys_hub_flow_variable_0042bade1b04211436431f82b24bcb63</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-12-31 00:50:29</sys_updated_on>
+        <sys_updated_on>2023-01-03 17:15:27</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2313,7 +2313,7 @@
         <sys_scope display_value="Sefaz Ordem de Serviço">26fbfd951b80e5d036431f82b24bcb4c</sys_scope>
         <sys_update_name>sys_hub_flow_variable_9364a12b1b80e91436431f82b24bcbbb</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-01-03 16:22:52</sys_updated_on>
+        <sys_updated_on>2023-01-03 17:15:27</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
